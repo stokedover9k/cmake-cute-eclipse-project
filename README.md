@@ -22,4 +22,4 @@ Create a 'build' directory as a sibling of the 'src' directory.
 Initialize the build system as an Eclipse project.
 - $ cmake -G"Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug ../src
 
-Import the project into Eclipse as "Existing Projects into Workspace".
+Import the project into Eclipse as "Existing Projects into Workspace" (use the 'build' directory as project root).
